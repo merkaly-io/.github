@@ -1,8 +1,8 @@
 ## Hey, this is us 👋
+![Ecommerce-Web-Design_banner](https://user-images.githubusercontent.com/16559276/135722265-3bd69327-ab28-4720-9693-16675b7984fa.png)
 
-![f543d74332fae1e0fe2cd64f9c0ea2fb](https://user-images.githubusercontent.com/16559276/135722120-1954103d-b657-4d33-830e-c3147c2c14ed.jpg)
 
-Yes, we are building GitHub on GitHub. In fact, we’ve been doing this since **October 19th, 2007**. That's when we made our first commit. Since then we pushed **over 2.5 million commits**, opened **over 1 million issues**, submitted roughly **650k pull requests** across **4357 repositories** from over **50 countries** 🤯. But that's just us. We are proud  to be part of the work of millions of developers, companies and robots across the solar system 🪐. Yes, [Robots](https://github.com/readme/featured/nasa-ingenuity-helicopter)!
+Wish to sell products online? Merkaly can assist you in setting up shopping cart software on your existing website or a new one. The server will easily allow you to add products, manage inventory and much more. Discover how painless it is to sell online and to be your own business owner. Online shoppers need reassurance and are far more likely to order when they can see they are doing business with a professional and customer friendly company. Customers are looking for a simple easy to use, organized, eye catching, and creative site. With years of experience in ecommerce, we understand the business of the internet sales and always exceed expectations with custom crafted technology solutions to ensure client success.
 
 ### 🍿 An interconnected community
 
