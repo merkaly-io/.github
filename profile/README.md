@@ -1,5 +1,5 @@
 ## Hey, this is us 👋
-![Ecommerce-Web-Design_banner](https://user-images.githubusercontent.com/16559276/135722265-3bd69327-ab28-4720-9693-16675b7984fa.png)
+![ecommerce](https://user-images.githubusercontent.com/16559276/152543767-a9981e52-1545-45c6-9290-7591af761ea2.jpg)
 
 
 Wish to sell products online? Merkaly can assist you in setting up shopping cart software on your existing website or a new one. The server will easily allow you to add products, manage inventory and much more. Discover how painless it is to sell online and to be your own business owner. Online shoppers need reassurance and are far more likely to order when they can see they are doing business with a professional and customer friendly company. Customers are looking for a simple easy to use, organized, eye catching, and creative site. With years of experience in ecommerce, we understand the business of the internet sales and always exceed expectations with custom crafted technology solutions to ensure client success.
