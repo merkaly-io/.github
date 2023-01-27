@@ -38,4 +38,6 @@ We hope you enjoy using Merkaly and find it to be a valuable tool for your busin
 
 <hr>
 
-<img src="https://www.merkaly.io/icon.png" align="right" height="45px">
+<a href="https://www.merkaly.io">
+ <img src="https://www.merkaly.io/icon.png" align="right" height="45px">
+</a>
