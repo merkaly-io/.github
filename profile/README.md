@@ -1,52 +1,41 @@
-## Hey, this is us 👋
-![ecommerce](https://user-images.githubusercontent.com/16559276/152543767-a9981e52-1545-45c6-9290-7591af761ea2.jpg)
+# Merkaly
+
+![image](https://user-images.githubusercontent.com/16559276/215105133-9ea810c3-aafb-4740-ac23-78470606af30.png)
 
 
-Wish to sell products online? Merkaly can assist you in setting up shopping cart software on your existing website or a new one. The server will easily allow you to add products, manage inventory and much more. Discover how painless it is to sell online and to be your own business owner. Online shoppers need reassurance and are far more likely to order when they can see they are doing business with a professional and customer friendly company. Customers are looking for a simple easy to use, organized, eye catching, and creative site. With years of experience in ecommerce, we understand the business of the internet sales and always exceed expectations with custom crafted technology solutions to ensure client success.
+### Introduction
+Welcome to Merkaly, a fully integrated ecommerce solution for businesses of all sizes. Our platform allows you to easily create and manage your online store, and provides all the tools you need to sell your products and services online.
 
-### 🍿 An interconnected community
+### Features
+- Customizable store front design 
+- Secure checkout and payment processing
+- Inventory management 
+- Order management 
+- Marketing and SEO tools 
+- Mobile optimization 
+- Integration with major shipping and tax providers 
+- Reporting and analytics 
+- 24/7 customer support
 
-The open source community is the 💗 heart of GitHub and fundamental to how we build software today. See for yourself:
+![Screenshot of Merkaly platform](https://merkaly.com/screenshot.png)
 
-- [GitHub Sponsors](https://github.com/sponsors) helped support more than **5k** individuals and projects around the world 🌍
-- Open source projects on GitHub received a stunning **218 million** contributions 🚀 in the last year alone
-- **Every minute** a developer creates a new release 🏄 for a public project on GitHub
+### Getting Started
+1. Sign up for an account at [our website](https://merkaly.com)
+2. Set up your store by adding products, customizing your design, and configuring your settings 
+3. Start selling! Merkaly makes it easy to manage orders, track inventory, and analyze sales data.
 
-Now that we are talking about the important things ☝️, are you contributing to open source? Yes? Okay, you rock! 🎸 If not, we can help you get started! Open source software is made by people just like you. Learn more about [how to contribute](https://opensource.guide/).
+### Support
+If you have any questions or need help getting started, please contact our customer support team at support@merkaly.com. We're here to help you every step of the way.
 
-### 🦦 Contributing to the ecosystem
+### Contribution
+If you want to contribute to Merkaly project, please check our [CONTRIBUTING.md](https://github.com/merkaly/CONTRIBUTING.md) file.
 
-We contribute to the tools 🔧 we rely on to build and run GitHub, while also maintaining 🧙‍♂️ our own open source projects like:
+### Licensing
+This project is licensed under the terms of the [MIT license](https://github.com/merkaly/LICENSE).
 
-- [GitHub CLI](https://github.com/cli/cli) - A command line tool for GitHub
-- [Git Large File Storage](https://github.com/git-lfs/git-lfs) - A git extension for versioning large files
-- [Primer](https://github.com/primer/css) - The GitHub design system
+### Conclusion
+We hope you enjoy using Merkaly and find it to be a valuable tool for your business. Happy selling!
 
-### 👓 Appendix
+<hr>
 
-See what's next on our [public roadmap](https://github.com/github/roadmap) ✨ and [let us know](https://github.com/github/feedback) if you have any suggestions 🙇‍♂️. Oh, and by the way, we are always hiring talented, passionate people to [join our team](https://github.com/about/careers) 🙌.
-
-<details> 
-	<summary>"Tell me more, I can't get enough!"</summary>
-	<br>
-	<ul>
-	<li>GitHub is built using mighty 🔨 open source technologies like <a href="https://github.com/rails">Ruby on Rails</a>, <a href="https://github.com/golang">Go</a>, <a href="https://github.com/primer/">Primer</a>, <a href="https://github.com/reactjs">React</a> and <a href="https://github.com/apache/kafka">Kafka</a> among others.</li>
-		<li>The three open source projects GitHub members have most contributed 👩‍💻 to are:
-			<ul>
-				<li><a href="https://github.com/microsoft/vscode">Visual Studio Code</a></li>
-				<li><a href="https://github.com/rails/rails">Ruby on Rails</a></li>
-				<li><a href="https://github.com/Homebrew">Homebrew</a></li>
-			</ul>
-		</li>
-		<li>By the way, our <a href="https://github.com/github/docs">documentation</a> 🤓 is also open sourced</li>
-	</ul>
-</details>
-
----
-
-<sub>🤫 Psst! You can create your own [organization README](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile).</sub>
-
-<!--
-Made with 🖤
-🙇‍♂️🎤⬇️
--->
+<img src="https://www.merkaly.io/icon.png" align="right" height="45px">
