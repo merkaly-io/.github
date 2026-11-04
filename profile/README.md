@@ -1,43 +1,59 @@
-# Merkaly
+<p align="center">
+  <a href="https://www.merkaly.io">
+    <img src="assets/banner.jpg" alt="Merkaly: dropshipping stores for Brazil, from product to payment" width="100%">
+  </a>
+</p>
 
-![image](https://user-images.githubusercontent.com/16559276/215105133-9ea810c3-aafb-4740-ac23-78470606af30.png)
+<p align="center">
+  <strong>Merkaly is a dropshipping platform for online stores in Brazil.</strong><br>
+  <em>Sua loja de dropshipping, do produto ao pagamento.</em>
+</p>
 
+<p align="center">
+  <a href="https://www.merkaly.io">Website</a> ·
+  <a href="https://www.linkedin.com/company/merkaly.io">LinkedIn</a> ·
+  <a href="mailto:support@merkaly.io">support@merkaly.io</a>
+</p>
 
-### Introduction
-Welcome to Merkaly, a fully integrated ecommerce solution for businesses of all sizes. Our platform allows you to easily create and manage your online store, and provides all the tools you need to sell your products and services online.
+## What Merkaly does
 
-### Features
-- Customizable store front design 
-- Secure checkout and payment processing
-- Inventory management 
-- Order management 
-- Marketing and SEO tools 
-- Mobile optimization 
-- Integration with major shipping and tax providers 
-- Reporting and analytics 
-- 24/7 customer support
+- **Import products** from international suppliers with their photos, variants and cost, then set your margin.
+- **Sell in your own store** on your own domain, built for the Brazilian market (pt-BR, BRL).
+- **Get paid with Pix and card**, with no percentage taken from your sales.
+- **Order from the supplier in one click** using the buyer's data; tracking reaches the buyer automatically.
+- **Run everything from one control tower**: each order shows its status from payment to delivery, real cost, profit and the next action.
 
-![Screenshot of Merkaly platform](https://merkaly.com/screenshot.png)
+No inventory and no spreadsheets. Monthly plans: Starter (R$ 49), Profissional (R$ 99) and Enterprise (custom).
 
-### Getting Started
-1. Sign up for an account at [our website](https://merkaly.com)
-2. Set up your store by adding products, customizing your design, and configuring your settings 
-3. Start selling! Merkaly makes it easy to manage orders, track inventory, and analyze sales data.
+<p align="center">
+  <img src="assets/admin-orders.png" alt="Merkaly admin: orders list with status, customer and total" width="100%">
+</p>
 
-### Support
-If you have any questions or need help getting started, please contact our customer support team at support@merkaly.com. We're here to help you every step of the way.
+## How it works
 
-### Contribution
-If you want to contribute to Merkaly project, please check our [CONTRIBUTING.md](https://github.com/merkaly/CONTRIBUTING.md) file.
+1. **Import.** Pick products from a supplier and bring them into your catalog with photos, variants and cost.
+2. **Sell.** Your storefront is live on your domain and the buyer pays with Pix or card.
+3. **Order in one click.** Merkaly places the supplier order with the buyer's data and keeps you and the buyer posted until delivery.
 
-### Licensing
-This project is licensed under the terms of the [MIT license](https://github.com/merkaly/LICENSE).
+## Surfaces
 
-### Conclusion
-We hope you enjoy using Merkaly and find it to be a valuable tool for your business. Happy selling!
+| Surface | What it is |
+| --- | --- |
+| [www.merkaly.io](https://www.merkaly.io) | Marketing site |
+| [admin.merkaly.io](https://admin.merkaly.io) | Merchant admin, the control tower |
+| Storefronts | Each merchant's own store, on their own domain |
+| API | The backend behind all of the above |
 
-<hr>
+## Stack
 
-<a href="https://www.merkaly.io">
- <img src="https://www.merkaly.io/icon.png" align="right" height="45px">
-</a>
+- **Frontends:** Nuxt 4, Vue 3, Bootstrap 5 ([bootstrap-vue-next](https://bootstrap-vue-next.github.io/bootstrap-vue-next/))
+- **Backend:** NestJS and MongoDB, with a database per tenant
+- **Identity:** Auth0
+- **Events:** RabbitMQ
+- **Hosting:** Railway
+- **Packages:** `@merkaly/api` (shared contracts), `@merkaly/nuxt`, `@merkaly/nest`
+
+## Contact
+
+- Support: [support@merkaly.io](mailto:support@merkaly.io)
+- Sales: [sales@merkaly.io](mailto:sales@merkaly.io)
