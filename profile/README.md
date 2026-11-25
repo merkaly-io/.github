@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://www.merkaly.io">Website</a> ·
+  <a href="https://docs.merkaly.io">Docs</a> ·
   <a href="https://www.linkedin.com/company/merkaly.io">LinkedIn</a> ·
   <a href="mailto:support@merkaly.io">support@merkaly.io</a>
 </p>
@@ -19,11 +20,11 @@
 
 - **Import products** from international suppliers with their photos, variants and cost, then set your margin.
 - **Sell in your own store** on your own domain, built for the Brazilian market (pt-BR, BRL).
-- **Get paid with Pix and card**, with no percentage taken from your sales.
+- **Get paid with Pix and card**, with no commission on the sale value.
 - **Order from the supplier in one click** using the buyer's data; tracking reaches the buyer automatically.
 - **Run everything from one control tower**: each order shows its status from payment to delivery, real cost, profit and the next action.
 
-No inventory and no spreadsheets. Monthly plans: Starter (R$ 49), Profissional (R$ 99) and Enterprise (custom).
+No inventory and no spreadsheets. Plans: **Free** (with ads, no own domain), **per product sold** (R$ 10 per distinct product sold in the month, taken from the profit, own domain) and **fixed** (R$ 500 per month, all included, priority support).
 
 <p align="center">
   <img src="assets/admin-orders.png" alt="Merkaly admin: orders list with status, customer and total" width="100%">
@@ -39,19 +40,32 @@ No inventory and no spreadsheets. Monthly plans: Starter (R$ 49), Profissional (
 
 | Surface | What it is |
 | --- | --- |
-| [www.merkaly.io](https://www.merkaly.io) | Marketing site |
+| [www.merkaly.io](https://www.merkaly.io) | Marketing site and self-service signup |
 | [admin.merkaly.io](https://admin.merkaly.io) | Merchant admin, the control tower |
-| Storefronts | Each merchant's own store, on their own domain |
-| API | The backend behind all of the above |
+| Storefronts | Each merchant's own store, on `*.merkaly.store` or their own domain |
+| dashboard.merkaly.io | Merkaly's internal operations panel |
+| [docs.merkaly.io](https://docs.merkaly.io) | How Merkaly works: glossary, animated flows, lifecycles and decisions by domain |
+
+## Services
+
+| Service | Role |
+| --- | --- |
+| api.merkaly.io | Records and business rules: catalog, orders, finance, accounts |
+| payments.merkaly.io | The only service that talks to the payment provider; stateless |
+| webhooks.merkaly.io | Entry gate for external providers (payments, identity, supplier); delivers each message to its domain's exchange |
+| signals.merkaly.io | Notifications (email) |
+| auth.merkaly.io | Auth0 tenant as code |
+
+Services talk over RabbitMQ: one exchange per domain (`merkaly.<service>`), events, commands and request-reply invokes. See the [messaging flows](https://docs.merkaly.io/flujos).
 
 ## Stack
 
-- **Frontends:** Nuxt 4, Vue 3, Bootstrap 5 ([bootstrap-vue-next](https://bootstrap-vue-next.github.io/bootstrap-vue-next/))
+- **Frontends:** Nuxt 4, Vue 3, Bootstrap 5 ([bootstrap-vue-next](https://bootstrap-vue-next.github.io/bootstrap-vue-next/)); docs on Docus
 - **Backend:** NestJS and MongoDB, with a database per tenant
-- **Identity:** Auth0
-- **Events:** RabbitMQ
+- **Identity:** Auth0 (organizations per store)
+- **Messaging:** RabbitMQ
 - **Hosting:** Railway
-- **Packages:** `@merkaly/api` (shared contracts), `@merkaly/nuxt`, `@merkaly/nest`
+- **Packages:** [`@merkaly/api`](https://github.com/merkaly-io/api) (shared contracts), [`@merkaly/nuxt`](https://github.com/merkaly-io/nuxt), [`@merkaly/nest`](https://github.com/merkaly-io/nest)
 
 ## Contact
 
